@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>RapidTags - YouTube Tag Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo" style="text-decoration: none;">
+            <div class="logo-icon"></div>
+            RAPIDTAGS
+        </a>
+        <button class="nav-button">TAG GENERATOR</button>
+    </header>
+
+    <main class="main-content">
+        <div class="background-pattern"></div>
+        <h1 class="title">TAG GENERATOR</h1>
+
+        <div class="input-container">
+            <input type="text" class="search-input" id="keyword-input" placeholder="Enter your next YouTube video title to generate tags">
+            <i class="fas fa-cog input-icon fa-cog"></i>
+            <i class="fas fa-search input-icon fa-search" id="generate-button"></i>
+        </div>
+
+        <div id="tag-container"></div>
+        <button id="copy-button" disabled>COPY TAGS</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
